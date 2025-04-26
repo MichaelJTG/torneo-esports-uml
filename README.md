@@ -4,7 +4,7 @@
 
 En la creación de este UML sobre gestión de equipos y jugadores, el equipo se registra en el torneo de Esport con el Administrador (Actor). Este recibe los datos de los jugadores para luego añadirlos al equipo, consultando la lista de equipos y jugadores existentes. Para evitar duplicidades tanto de equipos como de jugadores, se añaden dos comprobaciones: una que verifique la existencia de equipos y otra que confirme que el jugador solo se encuentre en un equipo.
 
-![gestionDeEquipos_useCase.png](diagrams/casos-uso.png)
+![gestionDeEquipos_useCase.png](diagrams/gestionDeEquipos_useCase.png)
 
 ## Identificación de clases y relaciones
 
