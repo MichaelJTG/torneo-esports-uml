@@ -8,18 +8,12 @@ En la creación de este UML sobre gestión de equipos y jugadores, el equipo se 
 
 ## Identificación de clases y relaciones
 
-| Clase | Tipo | Atributos principales | Métodos principales || **Clase**         | **Tipo**   | **Atributos principales**                | **Métodos principales**                                      |
+| **Clase**         | **Tipo**   | **Atributos principales**                | **Métodos principales**                                      |
 |--------------------|------------|------------------------------------------|-------------------------------------------------------------|
 | `Equipo`          | Entidad    | `nombre`, `lista de jugadores`           | `agregarJugador()`, `getJugadores()`                        |
 | `Jugador`         | Entidad    | `nombre`, `nickname`, `posición`, `edad`, `nacionalidad`, `equipo`, `división` | `getNombre()`, `getNickname()`, `getPosicion()`, `getEdad()`, `getNacionalidad()`, `getEquipo()`, `getDivision()` |
 | `Administrador`   | Control    | Consulta lista de equipos y jugadores    | `registrarEquipo()`, `añadirJugador()`                      |
 | `Interfaz`        | Vista      |                                          | `mostrarEquipos()`, `leerDatos()`, `mostrarJugadores()`     |
-| --- | --- | --- | --- |
-| `Equipo` | Entidad | nombre, lista de jugadores | agregarJugador(), getJugadores() |
-| `Jugador` | Entidad | nombre, nickname, posición, Edad, Nacionalidad, Equipo, división. | getNombre(), getNickname(), getPosicion(), getEdad(), getNacionalidad(), getEquipo(), getDivicion(). |
-| `Administrador` | Control | Consulta lista de equipos y jugadores | registrarEquipo(), añadirJugador() |
-| Interfaz | Vista |  | mostrarEquipos(), leerDatos() mostrarJugadores(). |
-|  |  |  |  |
 
 ## Diagrama de clase
 
